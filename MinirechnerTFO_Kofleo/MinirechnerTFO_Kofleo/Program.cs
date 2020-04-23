@@ -10,6 +10,9 @@ namespace MinirechnerTFO_Kofleo
         static void Main(string[] args)
         {
             Titel("MinirechnerTFO von Leon Kofler");
+            Menu();
+            
+            
             Console.ReadKey();
             
         }
@@ -33,6 +36,52 @@ namespace MinirechnerTFO_Kofleo
             {
                 Console.Write("*");
             }
+        }
+        static void Menu()
+        {
+            string Einlesen = "";
+            Console.WriteLine("Menu");
+            Console.WriteLine("Addiere         (1)");
+            Console.WriteLine("Subtrahiere     (2)");
+            Console.WriteLine("Multipliziere   (3)");
+            Console.WriteLine("Dividiere       (4)");
+            Console.Write("Wählen Sie die Aktion aus: ");
+            Einlesen = Console.ReadLine();
+
+            switch (Einlesen)
+            {
+                case "1":
+                    {
+                        Console.WriteLine("Addiere");
+                    }
+                    break;
+
+                case "2":
+                    {
+                        Console.WriteLine("Subtrahiere");
+                    }
+                    break;
+                
+                case "3":
+                    {
+                        Console.WriteLine("Multipliziere");
+                    }
+                    break;
+
+                case "4":
+                    {
+                        Console.WriteLine("Dividiere");
+                    }
+                    break;
+
+                default:
+                    {
+                    }
+                    break;
+
+
+            }
+
         }
         
        
