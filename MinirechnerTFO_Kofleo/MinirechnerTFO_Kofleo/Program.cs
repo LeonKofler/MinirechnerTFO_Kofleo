@@ -76,6 +76,13 @@ namespace MinirechnerTFO_Kofleo
                 case "3":
                     {
                         Console.WriteLine("Multipliziere");
+                        int Zahl1 = ZahlEinlesen();
+                        int Zahl2 = ZahlEinlesen();
+
+                        int Erg = Multipliziere(Zahl1, Zahl2);
+                        Console.WriteLine("Das Produkt der Zwei Zahlen ist:" + Erg);
+
+
                     }
                     break;
 
@@ -110,6 +117,12 @@ namespace MinirechnerTFO_Kofleo
         static int Subtrahiere(int Zahl1, int Zahl2)
         {
             int Erg = Zahl1 - Zahl2;
+            return Erg;
+        }
+
+        static int Multipliziere(int Zahl1,int Zahl2)
+        {
+            int Erg = Zahl1 * Zahl2;
             return Erg;
         }
        
