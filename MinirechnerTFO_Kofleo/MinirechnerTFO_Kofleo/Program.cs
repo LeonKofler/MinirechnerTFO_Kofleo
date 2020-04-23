@@ -64,7 +64,12 @@ namespace MinirechnerTFO_Kofleo
 
                 case "2":
                     {
-                        Console.WriteLine("Subtrahiere");
+                        Console.WriteLine("Subtrahiere\n");
+                        int Zahl1 = ZahlEinlesen();
+                        int Zahl2 = ZahlEinlesen();
+
+                        int Erg = Subtrahiere(Zahl1, Zahl2);
+                        Console.WriteLine("Die Differenz der Zwei Zahlen ist:" + Erg);
                     }
                     break;
                 
@@ -101,7 +106,12 @@ namespace MinirechnerTFO_Kofleo
             int Erg = Zahl1 + Zahl2;
             return Erg;
         }
-        
+
+        static int Subtrahiere(int Zahl1, int Zahl2)
+        {
+            int Erg = Zahl1 - Zahl2;
+            return Erg;
+        }
        
     }
 }
