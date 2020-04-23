@@ -1,5 +1,0 @@
-C:\Users\OEM\Desktop\Minirechner_Kofleo\MinirechnerTFO_Kofleo\MinirechnerTFO_Kofleo\bin\Debug\MinirechnerTFO_Kofleo.exe
-C:\Users\OEM\Desktop\Minirechner_Kofleo\MinirechnerTFO_Kofleo\MinirechnerTFO_Kofleo\bin\Debug\MinirechnerTFO_Kofleo.pdb
-C:\Users\OEM\Desktop\Minirechner_Kofleo\MinirechnerTFO_Kofleo\MinirechnerTFO_Kofleo\obj\x86\Debug\MinirechnerTFO_Kofleo.csprojResolveAssemblyReference.cache
-C:\Users\OEM\Desktop\Minirechner_Kofleo\MinirechnerTFO_Kofleo\MinirechnerTFO_Kofleo\obj\x86\Debug\MinirechnerTFO_Kofleo.exe
-C:\Users\OEM\Desktop\Minirechner_Kofleo\MinirechnerTFO_Kofleo\MinirechnerTFO_Kofleo\obj\x86\Debug\MinirechnerTFO_Kofleo.pdb

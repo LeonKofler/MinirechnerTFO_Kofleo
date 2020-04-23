@@ -52,7 +52,13 @@ namespace MinirechnerTFO_Kofleo
             {
                 case "1":
                     {
-                        Console.WriteLine("Addiere");
+                        Console.WriteLine("Addieren\n");
+                        int Zahl1 = ZahlEinlesen();
+                        int Zahl2 = ZahlEinlesen();
+                        
+                        int Erg = Addieren(Zahl1, Zahl2);
+                        Console.WriteLine("Die Summme der Zwei Zahlen ist:" + Erg);
+
                     }
                     break;
 
@@ -82,6 +88,18 @@ namespace MinirechnerTFO_Kofleo
 
             }
 
+        }
+        static int ZahlEinlesen()
+        {
+            Console.WriteLine("Zahl Eingeben: ");
+            int Eingelesen = Convert.ToInt32(Console.ReadLine());
+            return Eingelesen;
+        }
+
+        static int Addieren(int Zahl1, int Zahl2)
+        {
+            int Erg = Zahl1 + Zahl2;
+            return Erg;
         }
         
        
