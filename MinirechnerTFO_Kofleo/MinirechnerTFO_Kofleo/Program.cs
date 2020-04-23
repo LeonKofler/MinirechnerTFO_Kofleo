@@ -37,6 +37,7 @@ namespace MinirechnerTFO_Kofleo
                 Console.Write("*");
             }
         }
+
         static void Menu()
         {
             string Einlesen = "";
@@ -89,11 +90,18 @@ namespace MinirechnerTFO_Kofleo
                 case "4":
                     {
                         Console.WriteLine("Dividiere");
+                        int Zahl1 = ZahlEinlesen();
+                        int Zahl2 = ZahlEinlesen();
+
+                        int Erg = Dividiere(Zahl1, Zahl2);
+                        Console.WriteLine("Der Quotient der Zwei Zahlen ist:" + Erg);
+
                     }
                     break;
 
                 default:
                     {
+                        Console.WriteLine("Falsche Eingabe");
                     }
                     break;
 
@@ -101,6 +109,7 @@ namespace MinirechnerTFO_Kofleo
             }
 
         }
+
         static int ZahlEinlesen()
         {
             Console.WriteLine("Zahl Eingeben: ");
@@ -123,6 +132,12 @@ namespace MinirechnerTFO_Kofleo
         static int Multipliziere(int Zahl1,int Zahl2)
         {
             int Erg = Zahl1 * Zahl2;
+            return Erg;
+        }
+
+        static int Dividiere(int Zahl1, int Zahl2)
+        {
+            int Erg = Zahl1 / Zahl2;
             return Erg;
         }
        
